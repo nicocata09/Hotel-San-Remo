@@ -1,0 +1,393 @@
+@font-face
+{
+font-family:"cinzel";
+src:url("fuentes/Cinzel-Regular.otf");
+}
+
+body
+{
+margin:0%;	
+}
+
+header
+{
+width:100%;
+height:auto;	
+background-color:#898989;
+color:black;
+display:flex;
+margin:0%;
+align-items:center;
+justify-content: space-evenly;
+font-family:Braven;
+ background: linear-gradient(black, #bb4e05);
+ padding-top:1%;
+}
+
+nav
+{
+width:65%;
+height:auto;	
+display:flex;
+align-items:center;
+justify-content:space-around;
+border-radius:10px;
+}
+
+nav a:link, a:visited
+{
+display:flex;
+width:20%;
+height:40px;
+border-radius:10px;	
+justify-content:space-around;
+font-weight:bold;
+transition:all 0.7s;
+color:white;
+text-decoration:none;
+}
+
+nav a:hover{
+color:orange;
+font-size:20px;
+}
+
+main
+{
+width:100%;
+height:auto;	
+background-color:;
+display:flex;
+align-items: center;
+justify-content: space-evenly;
+
+}
+
+img
+{
+height:auto;
+width:100%;	
+}
+
+footer
+{
+width:100%;
+height:auto;	
+display:flex;
+ background: linear-gradient(#bb4e05, black);
+}
+
+h1
+{
+font-family:"";
+text-align:center;
+margin-left:15%;
+margin-right:15%;
+}
+
+p
+{
+color:white;	
+}
+
+body{
+
+
+
+
+img{
+height:auto;
+width:100%;
+}
+
+.padre
+{
+width:100%;
+height:auto;
+display:flex;
+margin:auto;
+justify-content:space-evenly;
+align-items:strech;
+flex-wrap:wrap;
+
+}
+
+.hijo{
+width:25%;
+height:auto;
+display:flex;
+flex-direction:column;		
+align-items:center;
+padding:1%;
+border-style:solid;
+border-radius:15px;
+border-color:#bbb9b9;
+border-width:2px;
+margin:1%;
+flex-wrap:wrap;
+}
+
+.foto
+{
+height:auto;
+width:18%;
+display:flex;
+align-items:center;
+
+
+}
+
+.tit
+{
+	
+	height:auto;
+width:100%;
+display:flex;
+justify-content:center;
+
+
+}
+
+.tex
+{
+text-align:left;
+color:#bbb9b9;
+height:auto;
+font-family:"cinzel";
+display:flex;
+font-weight:bolder;
+line-height:25px;
+}
+
+.imagen{
+border-radius:200px;
+
+}
+
+h1{
+color:#890404;
+}
+
+
+h2{
+text-align:center;
+color:#bf7a00;
+height:auto;
+width:100%;
+}
+
+h3{
+text-align:center;	
+color:#bf7a00;
+}
+
+
+.textof{
+width:33%;
+height:auto;
+display:flex;
+flex-direction:column;	
+padding:1%;
+}
+
+.iconostexto
+{
+width:5%;
+height:auto;
+display:flex;
+}
+
+.logo
+{
+height:auto;
+width:20%;	
+}
+
+
+.logo img{
+width:100%;
+height:auto;
+}
+.logof{
+height:auto;
+width:7%;
+padding:2%;
+}
+
+.iconos{
+width:50%;
+height:auto;
+display:flex;
+flex-direction:row;
+padding:2%;
+}
+
+.iconosf
+{
+width:60%;
+height:auto;
+display:flex;
+flex-direction:row;	
+align-items:center;
+justify-content: space-around;
+}
+
+.imagenesf
+{
+height:auto;
+width:100%;	
+display:flex;
+flex-direction:row;
+
+
+}
+
+@media  screen and (max-width:800px) /*si la pgina se carga en una pantalla de hasta 800 px de ancho */
+{
+	main
+	{
+			flex-direction:column;
+			align-items:center;
+	}
+	
+	.texto
+	{
+		width:100%;
+		font-size:50px;
+	}
+	
+	.foto
+	{
+			width:70%;
+	}
+	
+	header{
+             flex-direction:column;
+             align-items:center;			 
+	}
+	
+	.logo{
+       width:85%;	
+	}
+	
+	nav
+	{
+	
+			flex-direction:column;
+			align-items:center;
+	}
+	
+	p
+	{
+	font-size:30px;	
+	text-align:center;
+	}
+	
+	nav a:link
+	{
+		width:80%;
+		height:auto;
+		padding:1%;
+		font-size:30px;
+	}
+	
+	footer{
+		flex-direction:column;
+		align-items:center;
+	}
+	
+	.logof{
+		width:25%;
+		align-items:center;
+	
+	}
+	
+	h2
+	{
+	font-size:30px;	
+	}
+	
+	h3
+	{
+	font-size:30px;	
+	}
+	
+	.iconosf{
+	width:100%;	
+	flex-direction:column;
+	height:auto;
+		
+	}
+	
+	.textof
+	{
+	width:100%;	
+	align-items:center;
+	
+	
+	}
+	
+	.imagenesf
+	{
+	justify-content:center;
+	width:100%;
+	height:auto;
+	}
+	
+	.tit
+     {
+	
+		height:auto;
+		width:100%;
+        display:flex;
+        justify-content:center;
+
+
+	}
+
+    .tex
+     {
+       text-align:left;
+       color:#bbb9b9;
+       height:auto;
+       font-family:"cinzel";
+      display:flex;
+      font-weight:bolder;
+       line-height:40px;
+	   
+      }
+
+
+
+     .padre
+        {
+         width:100%;
+          height:auto;
+          display:flex;
+          flex-direction:column ;
+          align-items:center;
+         }
+
+            .hijo
+			{	
+              width:90%;
+              height:auto;
+              flex-direction:column;		
+              align-items:center; 
+            }
+
+              .foto
+              {
+                height:auto;
+				width:30%;				
+				display:flex;
+				justify-content:center;
+			  }
+			  
+			  .iconostexto
+			  {
+				width:9%;
+				height:auto;
+			  }
+
+}
